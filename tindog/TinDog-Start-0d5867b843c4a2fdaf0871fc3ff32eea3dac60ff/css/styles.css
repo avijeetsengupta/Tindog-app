@@ -1,0 +1,151 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-left: 3%;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+  line-height: 1.5;
+}
+
+
+
+/* button */
+.btn {
+  margin-left: 3%;
+}
+
+/* navbar brand */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-link {
+  font-family: 'Montserrat-black', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* image-title */
+.image-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* features-section */
+#features {
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%
+}
+.icon {
+  color: #ef8172;
+  line-height: 1.5;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+/* testimonials section */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press-section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+}
+
+/* pricing-sections */
+#pricing {
+padding: 3% 2% 3% 2%;
+  text-align: center;
+}
+
+.pricing-coloum {
+  padding: 3% 2% 3% 2%;
+
+}
+
+@media (max-width: 1028px) {
+   #title{
+     text-align: center;
+   }
+  .image-title {
+    position: static;
+    transform: rotate(0);
+    padding-top: 3%;
+  }
+}
+/* cta-section */
+#cta{
+  text-align: center;
+  background-color:  #ff4c68;
+  padding: 7%;
+
+}
+.cta-header{
+  font-size: 3rem;
+    color: #fff;
+
+}
+/* footer-section */
+#footer{
+  text-align: center;
+  padding: 3% 7%;
+  color: grey;
+}
+.social-icon{
+  padding: 3px;
+}
+.social-icon:hover{
+color: #ff4c68;
+}
